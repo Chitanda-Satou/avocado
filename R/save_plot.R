@@ -11,10 +11,10 @@
 #' @examples
 #'
 #' p1 <- ggpubr::ggboxplot(
-#' data = ToothGrowth
-#' , x = "supp"
-#' , y = "dose"
-#' , color = "supp"
+#'   data = ToothGrowth
+#'   , x = "supp"
+#'   , y = "dose"
+#'   , color = "supp"
 #' )
 #'
 #' save_plot(p = p1, f = "Figures/01.pdf", w = 5, h = 8)
@@ -28,3 +28,6 @@ save_plot <- function(p, f, w = 7, h = 7) {
   # try to save plot as ggplot2 object
   ggplot2::ggsave(filename = output, plot = p, width = w, height = h)
 }
+
+
+

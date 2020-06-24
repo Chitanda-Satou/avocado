@@ -24,10 +24,10 @@ Automatically create a directory and save a plot.
 \examples{
 
 p1 <- ggpubr::ggboxplot(
-data = ToothGrowth
-, x = "supp"
-, y = "dose"
-, color = "supp"
+  data = ToothGrowth
+  , x = "supp"
+  , y = "dose"
+  , color = "supp"
 )
 
 save_plot(p = p1, f = "Figures/01.pdf", w = 5, h = 8)

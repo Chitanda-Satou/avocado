@@ -12,3 +12,18 @@ dependent_packages <- c("ggpubr", "tidyverse", "pheatmap", "corrplot", "ComplexH
 install.packages(dependent_packages)
 
 ```
+
+## Usage cases
+
+Save an image in one line of code, regardless of whether the destination folder exists or not.
+
+```
+p1 <- ggpubr::ggboxplot(
+  data = ToothGrowth
+  , x = "supp"
+  , y = "dose"
+  , color = "supp"
+)
+save_plot(p = p1, f = "Figures/01.pdf", w = 5, h = 8)
+```
+

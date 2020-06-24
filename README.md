@@ -1,6 +1,10 @@
 # avocado  
-  
-![](https://img.shields.io/badge/license-MIT-green)
+
+![](https://img.shields.io/github/license/Chitanda-Satou/avocado)
+![](https://img.shields.io/github/issues/Chitanda-Satou/avocado)
+![](https://img.shields.io/github/repo-size/Chitanda-Satou/avocado)
+![](https://img.shields.io/github/languages/top/Chitanda-Satou/avocado)
+![](https://img.shields.io/github/languages/count/Chitanda-Satou/avocado)  
 
 This is an R package of useful R functions for medical statistics and plotting, 
 in order to reduce the amount of code in the process of medical statistics.

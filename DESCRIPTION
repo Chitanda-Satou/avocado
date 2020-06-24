@@ -1,0 +1,11 @@
+Package: avocado
+Type: Package
+Title: R functions useful for medical statistics and plotting.
+Version: 0.1.0
+Authors@R: person("Bing", "Niu", email = "shinji006@126.com", role = c("aut", "cre"))
+Maintainer: Bing Niu <shinji006@126.com>
+Description: In order to reduce the amount of code in the process of medical statistics,
+  some useful R functions are wrapped.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.1.0

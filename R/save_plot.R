@@ -21,10 +21,7 @@
 #'
 save_plot <- function(p, f, w = 7, h = 7) {
   output <- f
-  output_dir <- dirname(output)
-  if (!dir.exists(output_dir)) {
-    dir.create(output_dir, recursive = TRUE)
-  }
+  mkdir(output = output)
   # try to save plot as ggplot2 object
   ggplot2::ggsave(filename = output, plot = p, width = w, height = h)
 }
